@@ -1,0 +1,170 @@
+/*
+===========================================================
+blue: #2d98db  (darker for small image fades: 237ab1)
+light blue: #2786C1
+orange: #ba560d
+=========================================================== 
+
+             __/ _ \_____________________________
+            / / | | \                            \
+           |  | | | |                             |
+           |  | | | |                             |
+           | _|_| |_|____________________________ |
+           |/   | |                              \|
+     ______|____| |_______________________________|______
+    |   _   _  __-__  ____   ____   _____  ____ __   __  |
+    |  | \ | || ____||  _ \ |  _ \ | ____||  _ \\ \ / /  |
++-o |  |  \| ||  _|  | |_) || | | ||  _|  | |_) |\ V /   | o-+
+|   |  | |\  || |___ |  _ < | |_| || |___ |  _ <  | |    |   |
+|   |  |_| \_||_____||_| \_\|____/ |_____||_| \_\ |_|    |   |
+|   |                                                    |   |
+|   |  o----------------------------------------------o  |   |
+|____`--,  |                        ___           |  ,--'____|
+           |          |\__         (   )          |
+           |          |   \__       | |           |
+           |          | |\__ \__    | |           |
+           |          | |   \__ \__ | |           |
+           |          | |      \__ \| |           |
+           |          | |         \__ |           |
+           \__       (___)           \|         __/
+              \__                            __/
+                 \__                      __/
+                    \__                __/
+                       \__          __/
+                          \________/
+
+                          nerdery.com
+*/
+
+body {
+	background-color:	#f4f4f4;
+	font-family:		"Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	text-align:			center;
+	font-size:			12px;
+	color:				#2d98db;
+	margin:				0;
+	padding:			0;
+}
+
+#content  {
+	text-align:			left;
+	padding:			160px 20px 5px 20px;
+	margin:				20px auto 0 auto;
+	width:				440px;
+}
+
+h1 {
+	font-weight:		normal;
+	font-size:			14px;
+	color:				#ecf1f3;
+	margin: 			0 0 4px 0;
+}
+
+#branding {
+	background:			#27343c url('../images/branding_bg.gif') top left repeat-x;
+	text-align:			right;
+	padding-right:		125px;
+}
+
+#branding img {
+	border:				0;
+}
+
+a:link, a:visited {
+	color:				#2d98db;
+	text-decoration:	underline;
+}
+
+a:hover {
+	color:				#2d98db;
+	text-decoration:	underline;
+}
+
+dt {
+	font-size:			16px;
+	line-height:		24px;
+	margin-bottom:		5px;
+}
+
+dd {
+	margin:				0 0 15px 0;
+	font-size:			11px;
+	line-height:		24px;
+	color:				#666;
+}
+
+input {
+	outline:			0;
+	border: 1px solid #e4e4e4 !important;
+}
+
+input, .error {
+	font-size:			16px;
+	border:				none;
+	-webkit-border-radius: 6px;
+	-moz-border-radius:	6px;
+	padding:			10px;
+	width:				430px;
+	margin-right:		5px;
+	color:				#333;
+}
+
+input[type=checkbox] {
+	width:				auto;
+}
+
+span {
+	margin-left:		20px;
+}
+
+input.submit {
+	padding:			7px 16px 9px 16px;
+	color:				#fff;
+	font-weight:		bold;
+	border:				0;
+	width:				auto;
+	
+    background: #2D98DB; /* old browsers */
+    background: -moz-linear-gradient(top, #2D98DB 0%, #2786C1 71%); /* firefox */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#2D98DB), color-stop(71%,#2786C1)); /* webkit */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2D98DB', endColorstr='#2786C1',GradientType=0 ); /* ie */ 
+    border: 1px solid #2279af !important;
+    
+    -moz-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.2) !important;
+    -webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.2) !important;
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.2) !important;
+}
+
+input.submit:hover {
+    cursor: pointer;
+    background: #2786C1; /* old browsers */
+    background: -moz-linear-gradient(top, #2786C1 0%, #2D98DB 76%); /* firefox */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#2786C1), color-stop(76%,#2D98DB)); /* webkit */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2786C1', endColorstr='#2D98DB',GradientType=0 ); /* ie */
+}
+
+input.submit:active {
+    background: #2786C1; /* old browsers */
+    background: -moz-linear-gradient(top, #2786C1 0%, #2D98DB 76%); /* firefox */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#2786C1), color-stop(76%,#2D98DB)); /* webkit */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2786C1', endColorstr='#2D98DB',GradientType=0 ); /* ie */
+}
+
+.error {
+	font-size:			14px;
+	color:				#ce0000;
+	background:			#fdf5b2 url('../images/error.png') no-repeat 8px 10px;
+	border:				1px solid #f3d589;
+	padding:			3px 15px 3px 25px;
+	margin:				-48px 0 20px 0;
+	width:				374px;
+	
+	-webkit-border-radius:	6px;
+	-moz-border-radius:		6px;
+	-o-border-radius:		6px;
+	border-radius:			6px;
+}
+
+.error p {
+	margin:				8px 0;
+}
