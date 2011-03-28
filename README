@@ -1,13 +1,16 @@
 
-## Why ##
+Why
+===
 
 This is basically an anti-pink theme. It is intended to remove all the pink from the control panel, reduce the cartoonish rounded corners to something a bit more professional, and clean up some general alignment/padding/margin issues. It is not intended to be a huge overhaul, but instead a redux. It is a work in progress, though very usable. It will be kept light and very much in the spirit of the default theme.
 
-## Installation ##
+Installation
+============
 
-*   Create a directory called "nerdery" inside of /themes/cp_themes and place the contents this repo inside of it. You'll then have /themes/cp_themes/nerdery/
-*   Place $config['cp_theme'] = 'nerdery'; into your config.php file to ensure all users receive this theme.
+1. Create a directory called "nerdery" inside of /themes/cp_themes and place the contents this repo inside of it. You'll then have /themes/cp_themes/nerdery/
+2. Place $config['cp_theme'] = 'nerdery'; into your config.php file to ensure all users receive this theme.
 
-## Screenshots ##
+Screenshots
+===========
 
 https://skitch.com/litzinger/sets/nja/ee-2-cp-theme
