@@ -489,8 +489,8 @@ ul.homeBlocks {
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2D98DB', endColorstr='#2786C1',GradientType=0 ); /* ie */ 
 }
 
-#navigationTabs li.parent a:active,
-#navigationTabs li.parent.active a,
+#navigationTabs li.parent > a:hover,
+#navigationTabs li.parent.active > a,
 .less_important_bttn:active, 
 .rightNav .submit:active {
     background: #2786C1; /* old browsers */
