@@ -349,37 +349,6 @@ table.mainTable td {
     font-size: 12px;
 }
 
-
-#structure-ui > ul.page-list {
-    background: none;
-}
-
-/* Gotta love those !importants! */
-#structure-ui .page-list li .item-wrapper {
-    background: #e2e2e2 !important;
-    background: rgba(0,0,0,0.06) !important;
-    height: 27px !important;
-    -moz-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.15) !important;
-    -webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.15) !important;
-    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.15) !important;
-}
-
-#structure-ui .page-list li ul li .item-wrapper {
-    background: rgba(0,0,0,0.06) !important;
-}
-
-#structure-ui .page-list li .item-wrapper:hover { 
-    background: rgba(0,0,0,0.1) !important;
-}
-
-#structure-ui .page-list li .item-wrapper p.main-container {
-    padding-top: 0 !important;
-}
-
-#structure-ui .page-list li .item-wrapper p.extras-container {
-    padding-top: 8px !important;
-}
-
 .uhura_bar { 
     margin: 0 1px 20px 1px !important; 
 }
