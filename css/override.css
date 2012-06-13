@@ -448,7 +448,7 @@ ul.homeBlocks {
 }
 
 #navigationTabs li.parent a:hover,
-#navigationTabs li a.first_level:hover,
+#navigationTabs li a.first_level:not(#addQuickTab):hover,
 .less_important_bttn:hover, 
 .rightNav .submit:hover {
     color: #fff;
