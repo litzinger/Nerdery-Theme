@@ -11,3 +11,5 @@ This is a simple theme to remove all the pink from the control panel, reduce the
 ### Screenshots
 
 http://devot-ee.com/add-ons/nerdery
+
+Please note that I do not own the name "Nerdery", I simply work there http://nerdery.com. I created this to be used on all of our EE projects and couldn't think of a better name at the time.
