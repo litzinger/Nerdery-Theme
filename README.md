@@ -5,7 +5,7 @@ This is a simple theme to remove all the pink from the control panel, reduce the
 
 ### Installation
 
-1. Create a directory called "nerdery" inside of /themes/cp_themes and place the contents this repo inside of it. You'll then have /themes/cp_themes/nerdery/
+1. Download the repository and match its directory structure in your EE installation. It should be installed into /themes/cp_themes/nerdery/
 2. Place $config['cp_theme'] = 'nerdery'; into your config.php file to ensure all users receive this theme.
 
 ### Screenshots
