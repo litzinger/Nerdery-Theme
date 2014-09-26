@@ -315,6 +315,22 @@ table.mainTable th.headerSortDown {
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2786C1', endColorstr='#2D98DB',GradientType=0 ); /* ie */
 }
 
+table.mainTable th.headerSortDown:after,
+table.mainTable th.headerSortUp:after {
+    content: "-"; /* instead of pink gif */
+    float:right;
+    width: 20px;
+    text-align: center;
+    margin-right:-20px;
+    opacity: .6;
+}
+table.mainTable th.headerSortUp:after {
+    content: "▼"; /* desc */
+}
+table.mainTable th.headerSortDown:after {
+    content: "▲"; /* asc */
+}
+
 table.mainTable td {
     vertical-align: top;
 }
